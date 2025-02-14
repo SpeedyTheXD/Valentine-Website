@@ -5,6 +5,12 @@
   font-family: sans-serif;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 body {
   position: relative;
   width: 100%;
@@ -30,12 +36,6 @@ a {
   gap: 15px;
   max-width: 500px;
   margin: 20px;
-}
-
-.container .tenor-gif-embed {
-  display: flex;
-  max-width: 90%; /* Allow it to shrink on small screens */
-  width: 200px; /* Default size */
 }
 
 .container .btn {
