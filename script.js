@@ -10,3 +10,13 @@ function moverAleatoriamente(btn) {
 btnNo.addEventListener("mouseenter", function (e) {
     moverAleatoriamente(e.target)
 })
+
+document.querySelectorAll(".btn a").forEach(button => {
+    button.addEventListener("click", function () {
+      this.classList.add("bounce");
+  
+      setTimeout(() => {
+        this.classList.remove("bounce");
+      }, 600);
+    });
+  });
